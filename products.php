@@ -45,10 +45,10 @@ ob_start();
                     <label for="brand" class="form-label">Brand <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_brand" id="brand" class="form-select" required>
                         <option value="">Select Brand</option>
-                        <option value="Cervelo">Cervelo</option>
-                        <option value="Geometric">Geometric</option>
-                        <option value="Tecc">Tecc</option>
-                        <option value="Nosh">Nosh</option>
+                        <option value="Torriden">Torriden</option>
+                        <option value="Hada Labo">Hada Labo</option>
+                        <option value="Garnier">Garnier</option>
+                        <option value="Watsons">Watsons</option>
                     </select>
                 </div>
  
@@ -115,7 +115,7 @@ ob_start();
                 <small class="text-muted">View and manage all products in the inventory</small>
             </div>
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 1 item</span>
             </div>
         </div>
  
@@ -138,7 +138,7 @@ ob_start();
                         <td>SM001</td>
                         <td>Hydrating Silk Mask</td>
                         <td>RM15.00</td>
-                        <td>SilkGlow</td>
+                        <td>Torriden</td>
                         <td>Dry</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">

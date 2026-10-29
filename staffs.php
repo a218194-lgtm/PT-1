@@ -137,7 +137,7 @@ ob_start();
                         <td>S001</td>
                         <td>Nur Aina</td>
                         <td>0123456789</td>
-                        <td>aina@example.com</td>
+                        <td>nuraina@example.com</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -148,15 +148,7 @@ ob_start();
                         </td>
                     </tr>
                     </tbody>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
+                            
             </table>
         </div>
 

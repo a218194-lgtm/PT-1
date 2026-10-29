@@ -10,7 +10,7 @@ ob_start();
                 <p class="text-muted mb-0">Order #O001</p>
             </div>
             <div class="col-auto">
-                <button type="button" class="btn btn-primary"><i class="bi bi-printer me-1"></i>Print</button>
+                <button type="button" class="btn btn-primary" onclick="window.print()"><i class="bi bi-printer me-1"></i>Print</button>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@ ob_start();
     <div class="card-body p-4">
         <div class="row mb-4">
             <div class="col-md-6">
-                <h4>My Company</h4>
+                <h4>SilkGlow Beauty</h4>
                 <p class="text-muted mb-0">Sales Invoice</p>
             </div>
             <div class="col-md-6 text-md-end">
@@ -69,22 +69,21 @@ ob_start();
     </div>
 </div>
  
+
 <style>
 @media print {
-   
     .sidebar {
         display: none !important;
     }
 
     .navbar,
-    header {
+    header,
+    footer,
+    #myBurger {
         display: none !important;
     }
 
-    .btn-primary {
-        display: none !important;
-    }
-
+    .btn-primary,
     .btn-secondary {
         display: none !important;
     }
@@ -92,11 +91,41 @@ ob_start();
     .card {
         box-shadow: none !important;
         border: none !important;
+        border-radius: 0 !important;
+    }
+
+    .card:first-of-type {
+        margin-bottom: 10px !important;
+    }
+
+    body {
+        background: #ffffff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .container,
+    .container-fluid,
+    .col,
+    .p-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .card-body {
+        padding: 15px !important;
+    }
+
+    .table-dark th {
+        background-color: #212529 !important;
+        color: white !important;
     }
 
 }
 </style>
- 
+
  
 <?php
 $content = ob_get_clean();

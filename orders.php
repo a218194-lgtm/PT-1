@@ -130,15 +130,25 @@ ob_start();
                         <td>2026-10-28</td>
                         <td>Nur Aina</td>
                         <td>Balqis</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
+                       
+<td>
+    <a href="#" class="btn btn-sm btn-warning" title="Edit order">
+        <i class="bi bi-pencil"></i>
+    </a>
 
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
-                        </td>
+    <a href="#" class="btn btn-sm btn-danger" title="Delete order">
+        <i class="bi bi-trash"></i>
+    </a>
+
+    <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details">
+        <i class="bi bi-list"></i>
+    </a>
+
+    <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">
+        <i class="bi bi-receipt"></i>
+    </a>
+</td>
+
                     </tr>
                 </tbody>
             </table>

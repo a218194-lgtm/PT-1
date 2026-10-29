@@ -10,7 +10,7 @@
       
           <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
-              <a href="" class="text-decoration-none text-white">
+              <a href="home.php" class="text-decoration-none text-white">
                 <i class="bi bi-house-fill me-2"></i>
                 Home
               </a>
@@ -28,7 +28,7 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a href="customers.php"" class="text-decoration-none text-white">
+              <a href="customers.php" class="text-decoration-none text-white">
                 <i class="bi bi-people-fill me-2"></i>
                 Customers
               </a>
